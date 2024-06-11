@@ -23,7 +23,7 @@ void main(List<String> arguments) async {
   );
 
   try {
-    AttributeString result = await databases.createStringAttribute(
+    await databases.createStringAttribute(
       databaseId: databaseId,
       collectionId: collectionId,
       key: targetAttribute,
@@ -40,7 +40,7 @@ void main(List<String> arguments) async {
   for (Document document in documents.documents) {
     print("${document.data[sourceAttribute]} transferred.");
 
-    Document result = await databases.updateDocument(
+    await databases.updateDocument(
       databaseId: databaseId,
       collectionId: collectionId,
       documentId: document.$id,
