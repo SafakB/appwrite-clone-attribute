@@ -1,7 +1,8 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
-
 # Clone Attribute in Collection
+
+The main purpose of this script is for attribute properties that cannot be changed in Appwrite. 
+
+Bu script'in asıl amacı Appwrite'ta değiştirilemeyen attribute özellikleri içindir. 
 
 ## Steps
 ### Step 1
